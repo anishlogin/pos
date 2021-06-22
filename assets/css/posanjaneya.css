@@ -1,0 +1,198 @@
+
+table.dataTable tfoot th, table.dataTable tfoot td {
+            border-top: unset;
+        }
+.form .form-actions {
+    border-top:unset;
+    padding: 20px 0;
+    margin-top: 10px !important;
+}
+.f-set fieldset {
+    min-width: 0;
+    padding: 0;
+    margin: 0;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+  }
+  .f-set fieldset legend {
+     display: block; 
+     width: unset; 
+    padding: unset;
+     margin-bottom: unset; 
+    font-size: 12px;
+    margin-left: 8px;
+}
+.f-set
+{
+/*margin: 0 auto;
+display: table;*/
+}
+.bill-rad
+{
+  margin: 0 auto;
+  display: table;
+}
+.r-bill
+{
+  margin: 0 auto;display: table;
+  border-style: double;
+  width: 52%;
+  padding: 20px 30px;
+  border-color: #bae9e0;
+}
+.r-bill h5
+{
+  line-height: 2.2;
+}
+.r-bill .col-md-5 h5
+{
+  text-align: right;
+}
+  .r-bill .col-md-5:last-child {
+   border-bottom: 1px solid #9ad0c5;
+   border-top: 1px solid #9ad0c5;
+   color: #64d6b1;
+}
+.r-bill .col-md-5:nth-last-of-type(5)
+{
+  color: #11efdb!important;
+}
+.r-bill .col-md-5:nth-last-of-type(3) 
+{
+  color: #05867a!important;
+}
+.example tfoot td
+{
+  background-color: #ddd;
+  padding: 4px!important;
+}
+.year-container
+{
+  margin: 0 auto;
+  display: table;
+  width: 50%;
+}
+.search-report  label
+{
+float:left;
+margin-top: 12px;
+}
+.search-report input
+{
+   height: 32px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+  line-height: 1.25;
+  padding: 0 3px;
+  outline: 0;
+  width: 100%;
+}
+.sort-report
+{
+  margin-bottom: 10px
+}
+.sort-report label
+{
+  float:left;
+  margin-top: 12px;
+  padding-left: 33px;
+}
+.sort-report .col-md-8
+{
+  padding: 0 0 0 9px;
+}
+.right
+{
+  text-align: right;
+}
+.ratio input
+{
+      width: 36%;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+.currentstock
+{
+  margin: 0 auto;
+  display: table;
+}
+.tot-val input
+{
+background:#11bfaf;border: none;text-align: center;
+}
+.data-tb
+{
+  table-layout: fixed;
+} 
+.datas th, .datas td
+{
+ /*white-space: normal;
+text-overflow: ellipsis;*/
+overflow: hidden;
+/*width: 34%!important;*/
+overflow-wrap: break-word;
+}
+.left-select
+{
+  float: left;
+}
+/*dl li, ol li, ul li {*/
+/*    line-height: 1;*/
+/*}*/
+table.table thead th.sorting:after, table.table thead th.sorting_asc:after, table.table thead th.sorting_desc:after {
+    top: 3px;
+    right: 2px;
+}
+table.dataTable tfoot th, table.dataTable tfoot td {
+    padding: 6px 3px;
+}
+.subTableLedger
+{
+    border: 1px solid #1fa9a1;
+}
+.subTableLedger tr td
+{
+     border: 1px solid #1fa9a1;
+}
+.subTableLedger tr th
+{
+    border: 1px solid #1fa9a1;
+    background-color: #1fa9a1;
+    color: #fff;
+}
+.shiftBody .col-md-7, .shiftBody .col-md-5
+{
+    border: 1px solid #ddd;
+}
+.scrolldiv
+{
+   overflow-y: auto;
+    display: block;
+    height: 450px;
+    margin-top: 51px;
+}
+.shift-nav .nav-item
+{
+    line-height:1;
+}
+.anjeneya-logo a img
+{
+    border-style: none;
+    vertical-align: middle;
+    height: 80px;
+    padding: 3px 0px 0px 20px;
+    /*width: 100%;*/
+}
+.pwd-logo img
+{
+   height: 154px!important; 
+}
+.navbar-brand {
+    float: left;
+    padding-top: .25rem;
+    padding-bottom: .25rem;
+     margin-right: 0; 
+    font-size: 1.25rem;
+    line-height: inherit;
+}

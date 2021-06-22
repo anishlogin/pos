@@ -1,0 +1,11 @@
+@media (max-width: 667px)
+{
+.anjeneya-logo a img {
+     height: 51px!important;
+    padding: 0!important;
+    /* width: 100%; */
+}
+.main-menu.menu-fixed {
+    top: 3.7rem!important;
+}
+}

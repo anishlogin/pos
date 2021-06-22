@@ -1,0 +1,106 @@
+body {
+   width:384px;
+   margin: 0 auto;
+  font-family: sans-serif;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+   /* line-height:1;*/
+}
+
+p {
+	margin: 0;
+	font-size: 20px;
+	
+}
+h6 {
+	margin: 0;
+	font-size: 11px;
+	
+}
+.table-title {
+	text-align: center;
+}
+
+.table-bordered td, th {
+
+    text-align: left;
+    font-size: 12px;
+    padding: 1px 1px;
+}
+.table-bor-right {
+	
+	/*font-size: 13px;*/
+	/*height: 265px;*/
+	vertical-align: baseline;
+}
+
+.bor-bottom1 {
+	
+	border-bottom: 1px solid #1fa9a1;
+	background: #1fa9a154;
+}
+
+.td-right {
+	text-align: right;
+	font-weight: 700;
+}
+.table 
+{
+	border:  #0070c0;
+	font-size: 12px;
+	height: 181px;
+}
+.table td, th {
+	border-left:  #0070c0;
+	border-right: 1px solid #0070c0;
+    text-align: left;
+	padding: 2px 8px;
+	font-size: 13px;
+}
+.td-he50 {
+	border-bottom: none!important;	
+	vertical-align: baseline;
+}
+.td-he50 p:last-child {
+	padding-bottom: 8px;
+}
+.bor-bottom table td {
+    border-right: 0px solid #0070c0;
+    padding:0;
+}
+
+
+.tb-center p
+{
+	text-align: center;
+	
+}
+.tb-center
+{
+padding-bottom: 6px !important;
+}
+.title p
+{
+	text-align: center;
+}
+.title
+{
+	padding-bottom: 10px!important;
+}
+
+.cashdetails
+{
+margin-bottom: 2px;
+line-height: 1;
+}
+.space .denom{
+ padding: 3px;
+    text-align: right;
+}
+.space
+{
+	border-top:1px dashed;
+	    margin-bottom: 15px;
+} 

@@ -1,0 +1,260 @@
+/*!
+ * Start Bootstrap - Simple Sidebar (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body {
+    overflow-x: hidden;
+}
+
+/* Toggle Styles */
+
+#wrapper {
+    /*padding-left: 0;*/
+    padding-right: 250px;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#wrapper.toggled {
+    /*padding-left: 250px;*/
+    padding-right: 192px;
+    /*padding-right: 0;*/
+}
+
+#wrapper.no-alert-bar .alert-side-bar {
+    width: 0;
+}
+
+#wrapper.no-alert-bar {
+    padding-right: 250px;
+}
+
+#wrapper.toggled.no-alert-bar {
+    padding-right: 0;
+}
+
+#wrapper.toggled.no-alert-bar #right-bar-wrapper .right-bar-clear {
+    width: 80px;
+}
+
+#wrapper.toggled.no-alert-bar #right-bar-wrapper .right-bar-clear .right-bar-alert-clear-all {
+    display: none;
+}
+
+#sidebar-wrapper {
+    z-index: 1000;
+    position: fixed;
+    /*left: 250px;*/
+    /*padding: 20px;*/
+    /*height: 100%;*/
+    width: 250px;
+    right: 0;
+    top: 53px;
+    bottom: 21px;
+    margin-left: -250px;
+    overflow-y: auto;
+    background: #000;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+    /*width: 0;*/
+    padding: 0;
+    right: -250px;
+}
+
+#page-content-wrapper {
+    /*width: 100%;*/
+    position: absolute;
+    padding: 10px;
+}
+
+#wrapper.toggled #page-content-wrapper {
+    position: absolute;
+    /*margin-right: -250px;*/
+    /*margin-right: -150px;*/
+    /*position: absolute;*/
+    /*margin-right: 190px;*/
+}
+
+/* Sidebar Styles */
+
+.sidebar-nav {
+    position: absolute;
+    top: 0;
+    width: 250px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.sidebar-nav li {
+    text-indent: 20px;
+    line-height: 40px;
+}
+
+.sidebar-nav li a {
+    display: block;
+    text-decoration: none;
+    color: #999999;
+}
+
+.sidebar-nav li a:hover {
+    text-decoration: none;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.sidebar-nav li a:active,
+.sidebar-nav li a:focus {
+    text-decoration: none;
+}
+
+.sidebar-nav > .sidebar-brand {
+    height: 65px;
+    font-size: 18px;
+    line-height: 60px;
+}
+
+.sidebar-nav > .sidebar-brand a {
+    color: #999999;
+}
+
+.sidebar-nav > .sidebar-brand a:hover {
+    color: #fff;
+    background: none;
+}
+
+@media (min-width: 768px) {
+    #wrapper {
+        /*padding-left: 250px;*/
+        padding-left: 0;
+    }
+
+    #wrapper.toggled {
+        /*padding-left: 0;*/
+        /*padding-right: 0;*/
+    }
+
+    #sidebar-wrapper {
+        width: 250px;
+    }
+
+    #wrapper.toggled #sidebar-wrapper {
+        /*width: 0;*/
+        right: -250px;
+    }
+
+    #page-content-wrapper {
+        padding: 10px;
+        position: relative;
+    }
+
+    #wrapper.toggled #page-content-wrapper {
+        position: relative;
+        /*margin-right: 0;*/
+    }
+}
+
+.right-side-bar ul.right-side-bar-list-ul li.list-item {
+    /*top: 0;*/
+    /*width: 100%;*/
+    /*margin: 0;*/
+    /*padding: 15px;*/
+    /*list-style: none;*/
+    /*border-bottom: 3px solid;*/
+    /*cursor: pointer;*/
+
+    top: 0;
+    margin: 0;
+    list-style: none;
+    border-bottom: 3px solid;
+    cursor: pointer;
+    padding: 20px;
+    text-transform: uppercase;
+    width: 100%;
+    display: inline-block;
+}
+
+.right-side-bar ul.right-side-bar-list-ul {
+    padding: 0;
+}
+
+.right-side-bar ul.right-side-bar-list-ul a {
+    color: #ffffff;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.right-side-bar .bg-red {
+    background: #e87858;
+}
+
+.right-side-bar .bg-teal {
+    background: #2b6494;
+}
+
+.right-side-bar .bg-purple {
+    background: #9072c7;
+}
+
+.right-side-bar .bg-yellow {
+    background: #e4bc3e;
+}
+
+.right-side-bar ul li.list-item span.btn-collapse {
+    /*margin: 0;*/
+    /*display: inline;*/
+    /*right: 15px;*/
+    /*position: absolute;*/
+    /*color: #ffffff;*/
+
+    float: right;
+    width: 20px;
+    height: 20px;
+    display: block;
+    text-align: center;
+    right: 10px;
+}
+
+.right-side-bar ul li.list-item-sub {
+    top: 0;
+    width: 100%;
+    margin: 0;
+    padding: 15px 15px 35px 15px;
+    list-style: none;
+    border-bottom: 1px solid #3C3C44;
+    cursor: pointer;
+    background: #32323A;
+}
+
+.right-side-bar ul li.list-item-sub .text {
+    color: #ffffff;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin: 0;
+    float: left;
+}
+
+.right-side-bar ul li.list-item-sub .sub-text {
+    color: #ffffff;
+    font-size: 10px;
+    margin: 0;
+    float: right;
+}
+
+.right-side-bar li.list-item-sub-list ul {
+    padding: 0;
+}
+
+.right-side-bar li.list-item-sub-list {
+    display: none;
+}

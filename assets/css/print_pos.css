@@ -1,0 +1,215 @@
+.table_print {
+	width: 80%;
+	margin: 0 auto;
+	border: 5px solid #f5f5f5;
+	padding:10px;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+.table_print th {
+    padding: 0;
+}
+.table_print td {
+    padding: 0;
+}
+.table_print p {
+	margin: 0 0 5px 0;
+	font-size: 12px;
+	line-height: 14px;
+}
+.table_print h4 {
+	text-align: center;
+	font-size: 12px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+} 
+.table-bor-right tr > td {
+	line-height: 20px
+}
+.table_print tfoot td {
+    padding: 4px 0;
+    font-weight: 700;
+    font-size: 18px
+}
+/*p:last-child {
+	margin-bottom: 0px;
+}*/
+.table-bordered td, th {
+	/*border: 1px solid #000;*/
+    text-align: left;
+    font-size: 12px;
+}
+/*.table-first, .table-second {*/
+	/*width: 50%;*/
+	/*float: left;*/
+/*}*/
+.table_bor_total tbody td {
+	padding-left: 15px;
+	line-height: 18px;
+	font-size: 12px;
+}
+.company-details {
+	width: 100%;
+	text-align: center;
+}
+.company-details h5 {
+	font-weight: 700;
+	font-size: 15px;
+	letter-spacing: 1px;
+	margin-bottom: 5px;
+}
+.company-details .company-logo {
+	width: 20%;
+	float: left;
+}
+.company-details .company-logo img {
+	max-width: 100%;
+}
+.company-details .company-des {
+	width: 80%;
+	float: left;
+}
+.company-details .company-des p {
+	padding-left: 10px;
+}
+.table-bor-right {
+	border-bottom: 2px dashed #000000;
+	font-size: 12px;
+	margin-bottom: 6px;
+}
+.table_bor_total tr td:last-child {
+	text-align: right;
+
+}
+.table_bor_total tfoot {
+	border-top: 2px dashed #000000;
+	border-bottom: 2px dashed #000000; 
+}
+.table-bor-right td {
+	border-right: none;
+}
+.bor-bottom {
+	border-bottom: 1px solid #000;
+}
+.bor-tb {
+	border-top: 2px dashed #000000;
+	border-bottom: 2px dashed #000000;
+}
+.td-ri {
+	text-align: right !important;
+}
+.td-lf {
+	text-align:left !important;
+}
+.td-cen {
+	text-align: center!important;
+}
+.td-right {
+	text-align: right;
+	font-weight: bold;
+}
+/*.table-bor-right tr:last-child {
+	border-top: 1px solid #000;
+}*/
+.td-he40 {
+	padding-bottom: 50px;
+	border-bottom: none!important;
+}
+.td-he50 {
+	border-bottom: none!important;	
+}
+.td-he50 p:last-child {
+	padding-bottom: 15px;
+}
+.td-wid {
+	width: 40%;
+}
+/******************BILL*************************/
+    #Bill
+    {
+        width: 384px;
+        /*margin: 0 auto;*/
+        /*display: table;*/
+        /*border: 1px solid #ccc;*/
+            font-family: sans-serif;
+            height:auto;
+    }
+    #Bill h3
+    {
+        text-align: center;
+        margin: 0 0 2px 0;
+        font-weight: 400;
+        font-size: 20px;
+         color: #000;
+    }
+    /*#Bill .whole-sec*/
+    /*{*/
+    /*    padding: 10px 20px;*/
+    /*}*/
+    #Bill .one p
+    {
+        margin: 0px 0 2px 0;
+        font-size: 20px;
+        text-align: center;
+        color: #000;
+        /*line-height: 1;*/
+    }
+    #Bill .two-one
+    {
+        width: 35%;
+        float: left;
+        margin-bottom: 10px;
+    }
+    #Bill .two-one p
+    {
+        margin: 0;
+        font-size: 20px;
+         color: #000;
+             /*line-height: 1;*/
+    }
+    #Bill table 
+    {
+    border-collapse: collapse;
+    width: 100%;
+    }
+    #Bill th,td
+    {
+        text-align: left;
+        padding: 0 2px;
+        font-size: 20px;
+        color: #000;
+        /*line-height: 1;*/
+    }
+    #Bill th {
+        border-top: 1px dashed #000;
+        border-bottom: 1px dashed #000;
+        
+    }
+    #Bill tbody
+    {
+        border-top: 1px dashed #000;
+        border-bottom: 1px dashed #000;
+    }
+    #Bill .last p
+    {
+        margin: 0;
+        font-size: 20px;
+        color: #000;
+        /*line-height: 1;*/
+    }
+     #Bill table td>p
+    {
+    white-space: nowrap;
+    width: 125px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 0;
+   /* border: 1px solid #000000;*/
+}
+ #Bill table tr
+ {
+     height:10px;
+ }
+/*******************************************************/

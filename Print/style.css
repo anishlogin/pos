@@ -1,0 +1,136 @@
+#invoice-POS {
+  box-shadow: 0 0 1in -0.25in rgba(0, 0, 0, 0.5);
+  padding: 2mm;
+  margin: 0 auto;
+  width: 44mm;
+  background: #FFF;
+}
+#invoice-POS ::selection {
+  background: #f31544;
+  color: #FFF;
+}
+#invoice-POS ::moz-selection {
+  background: #f31544;
+  color: #FFF;
+}
+#invoice-POS h1 {
+  font-size: 1.5em;
+  color: #222;
+}
+#invoice-POS h2 {
+  font-size: .6em;
+  margin: .2em 0;
+  color: #666;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+#invoice-POS h3 {
+  font-size: .6em;
+  margin: .2em 0;
+  color: #666;
+  font-weight: 300;
+}
+#invoice-POS h4 {
+  font-size: .6em;
+  margin: .2em 0;
+  color: #666;
+  font-weight: 300;
+}
+#invoice-POS p {
+  font-size: .5em;
+  color: #666;
+  line-height: .2em;
+  text-align: center;
+}
+#invoice-POS #top {
+  border-bottom: 1px solid #EEE;
+}
+#invoice-POS #top {
+  min-height: 100px;
+}
+#invoice-POS #top .logo {
+  height: 31px;
+  width: 60px;
+  background: url(logo.png) no-repeat;
+  background-size: 60px 31px;
+}
+#invoice-POS .info {
+  display: block;
+  margin-left: 0;
+}
+#invoice-POS .info-date {
+  display: block;
+  margin-left: 0;
+  width: 100%;
+  float: left;
+}
+#invoice-POS .info-date ul {
+  margin: 0;
+  padding: .3em 0;
+  list-style: none;
+  font-size: .5em;
+  display: block;
+  float: left;
+  color: #666;
+}
+#invoice-POS .info-date ul li {
+  width: 50%;
+  float: left;
+  padding: .1em 0;
+}
+#invoice-POS .info-date .t-right {
+  text-align: right;
+}
+#invoice-POS .title {
+  float: right;
+}
+#invoice-POS .title p {
+  text-align: right;
+}
+#invoice-POS table {
+  width: 100%;
+  border-collapse: collapse;
+}
+#invoice-POS .tabletitle {
+  font-size: .5em;
+  background: #EEE;
+  color: #666;
+}
+#invoice-POS .tabletitle1 {
+  font-size: .51em;
+  color: #666;
+}
+#invoice-POS .tabletitle.bbot {
+  font-size: .52em;
+  line-height: 1.4em;
+}
+#invoice-POS .btop {
+  border-top: 1px solid #EEE;
+}
+#invoice-POS .bbot {
+  border-bottom: 1px solid #EEE;
+}
+#invoice-POS .service td {
+  font-size: .5em;
+  color: #666;
+  line-height: 1.2em;
+}
+#invoice-POS .service span {
+  text-align: right;
+  float: right;
+}
+#invoice-POS .service.tcen {
+  text-align: center;
+}
+#invoice-POS .item {
+  width: 24mm;
+}
+#invoice-POS .sno {
+  width: 1mm;
+}
+#invoice-POS .itemtext {
+  font-size: .5em;
+}
+#invoice-POS #legalcopy {
+  margin-top: 1mm;
+}

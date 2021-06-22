@@ -1,0 +1,284 @@
+body {
+   width: 682px;
+   margin: 0 auto;
+   font-family: 'Open Sans', sans-serif;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td {
+    padding: 2px 8px;
+}
+p {
+	margin: 0;
+	font-size: 11px;
+	/*font-weight: 700;*/
+}
+p:last-child {
+	margin-bottom: 0px;
+}
+.table-title {
+	text-align: center;
+}
+.table-title h3 {
+	margin: 0;
+	font-size: 16px;
+}
+.fs-24 {
+	font-size: 20px;
+	color: #0070c0;
+}
+.table-bordered td, th {
+    text-align: left;
+    font-size: 12px;
+    padding: 1px 6px;
+}
+.table-first {
+	width: 65%;
+	float: left;
+}
+.table-second {
+	width: 35%;
+	float: left;
+}
+.br-right {
+	border-right: none !important;
+}
+.company-details {
+	width: 100%;
+	float: left;
+}
+.company-details .company-logo {
+	width: 20%;
+	float: left;
+}
+.company-details .company-logo img {
+	max-width: 100%;
+}
+.company-details .company-des {
+	width: 80%;
+	float: left;
+}
+.company-details .company-des p {
+	padding-left: 8px;
+}
+.desc-item
+{
+	font-size: 11px;
+    text-transform: uppercase;
+}
+.table-bor-right {
+	border: 1px solid #0070c0;
+	font-size: 12px;
+	vertical-align: baseline;
+}
+/*.table-bor-right tr {
+	height: 10px;
+}*/
+.table-bor-right td {
+	border-right: 1px solid #0070c0;
+	padding: 2px 8px;
+}
+.bor-bottom {
+	border-top: 1px solid #0070c0;
+	border-bottom: 1px solid #0070c0;
+	background: #dce6f1;
+}
+.bor-bottom1 td {
+	padding: 6px 8px;
+	font-size: 12px;
+}
+.td-ri {
+	text-align: right !important;
+}
+.ver-ali td {
+	vertical-align: middle !important;
+}
+.td-cen {
+	text-align: center!important;
+}
+.td-right {
+	text-align: right;
+	font-weight: 700;
+}
+
+.table 
+{
+	border:  #0070c0;
+	font-size: 12px;
+	height: 181px;
+}
+.table td, th {
+	border-left:  #0070c0;
+	border-right: 1px solid #0070c0;
+    text-align: left;
+	padding: 2px 8px;
+	font-size: 13px;
+}
+.disclener {
+	width: 100%;
+	float: left;
+}
+.disclener .disclener-left {
+	width: 60%;
+	float: left;
+}
+.disclener .disclener-left h6 {
+	margin-bottom: 8px;
+}
+.disclener .disclener-right {
+	width: 40%;
+	float: right;
+	text-align: right;
+}
+.disclener .tx-cen {
+	display: block;
+	text-align: center;
+	width: 100%;
+	float: left;
+	margin-top: 20px;
+}
+.td-he40 {
+	height: 47px;
+	vertical-align: baseline;
+	border-bottom: none!important;
+}
+.td-he50 {
+	border-bottom: none!important;	
+	height: 125px;
+	vertical-align: baseline;
+}
+.td-he50 p:last-child {
+	padding-bottom: 8px;
+}
+.td-wid {
+	width: 40%;
+}
+.tb-color {
+	background: #dce6f1;
+}
+.tab-color {
+	border: 1px solid #0070c0;
+}
+.tx-cen
+{
+	    width: 100%;
+    margin: 0 auto;
+    display: table;
+    text-align: center;
+}
+.box
+{	
+	border-top:none;
+	width: 65%;
+	float: left;
+}
+.box1{
+	width: 34%;
+	float: right;
+}
+.box1 .r1{
+	width: 70%;
+	float: left;
+}
+.box1 .r2{
+	width: 30%;
+	float: right;
+}
+.box p {
+	padding-left: 8px;
+}
+/*.box p:first-child {
+	padding-top: 5px;
+}*/
+ul {
+	margin: 0;
+	padding: 0;
+}
+ul li
+{
+	list-style: none;
+	width: 100%;
+	float: left;
+}
+.company {
+	margin-top: 8px;
+}
+.company li p {
+	width: 20%;
+	float: left;
+	margin-bottom: 0;
+	font-size: 11px;
+}
+.company li span {
+	width: 75%;
+	float: left;
+	font-size: 11px;
+}
+.company li span > strong {
+	padding: 0 15px 0 0; 
+	font-size: 11px;
+}
+.table td:last-child {
+    border-right: none;
+}
+.td-none {
+    height: 8px;
+}
+.td-none td {
+    padding: 0;
+}
+.declaration p {
+	padding-left: 0;
+}
+.bank-details {
+	position: relative;
+	top: -10px;
+}
+.bank-details li p {
+	width: 40%;
+	float: left;
+	margin-bottom: 0;
+}
+.bank-details li span {
+	width: 60%;
+	float: left;
+	font-size: 11px;
+}
+.bank-details li span > strong {
+	padding: 0 10px 0 0; 
+}
+.declaration {
+	position: relative;
+	top: -5px;
+	margin-bottom: -14px;
+}
+.declaration td {
+	padding: 0 8px;
+}
+.bank-details li, .bank-details p {
+	font-size: 11px;
+}
+.table1 {
+	border-top:1px solid #0070c0;
+}
+.table1 tr td {
+	border-right:1px solid #0070c0;
+}
+.table1 td {
+	border-right:none;
+} 
+.table1 p {
+	padding-left: 0;
+}
+.table1 .table-in {
+	text-align: right;
+}
+.ta1-pos {
+	position: relative;
+	top: -5px;
+}
+.fz-10 {
+	font-size: 10px;
+}

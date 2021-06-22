@@ -1,0 +1,314 @@
+body {
+
+    /*size: 7in 9.25in;*/
+
+    /*margin: 27mm 16mm 27mm 16mm;*/
+
+    width: 642px;
+
+    height: 842px;
+
+    margin: 0 auto;
+
+    /*padding: 40px 0 60px;*/
+
+}
+
+
+
+/*table, td, th {
+
+    border: 1px solid #000;
+
+    text-align: left;
+
+}*/
+
+table {
+
+    border-collapse: collapse;
+
+    width: 100%;
+
+}
+
+
+
+th, td {
+
+    padding: 5px 10px;
+
+}
+
+
+
+p {
+
+    margin: 0 0 5px 0;
+
+    font-size: 12px;
+
+}
+
+
+
+p:last-child {
+
+    margin-bottom: 0px;
+
+}
+
+
+
+.table-title {
+
+    text-align: center;
+
+}
+
+
+
+.table-title h3 {
+
+    margin: 0;
+
+}
+
+
+
+.table-bordered td, th {
+
+    border: 1px solid #000;
+
+    text-align: left;
+
+    font-size: 12px;
+
+}
+
+
+
+.table-first, .table-second {
+
+    width: 50%;
+
+    float: left;
+
+}
+
+
+
+.br-right {
+
+    border-right: none !important;
+
+}
+
+
+
+.company-details {
+
+    width: 100%;
+
+    float: left;
+
+}
+
+
+
+.company-details .company-logo {
+
+    width: 20%;
+
+    float: left;
+
+}
+
+
+
+.company-details .company-logo img {
+
+    max-width: 100%;
+
+}
+
+
+
+.company-details .company-des {
+
+    width: 80%;
+
+    float: left;
+
+}
+
+
+
+.company-details .company-des p {
+
+    padding-left: 10px;
+
+}
+
+
+
+.table-bor-right {
+
+    border: 1px solid #000;
+
+    font-size: 12px;
+
+}
+
+
+
+.table-bor-right td {
+
+    border-right: 1px solid #000;
+
+}
+
+
+
+.bor-bottom {
+
+    border-bottom: 1px solid #000;
+
+}
+
+
+
+.td-ri {
+
+    text-align: right !important;
+
+}
+
+
+
+.td-cen {
+
+    text-align: center !important;
+
+}
+
+
+
+.td-right {
+
+    text-align: right;
+
+    font-weight: bold;
+
+}
+
+
+
+.table-bor-right tr:last-child {
+
+    border-top: 1px solid #000;
+
+}
+
+
+
+.table td, th {
+
+    border: 1px solid #000;
+
+    text-align: left;
+
+    font-size: 12px;
+
+}
+
+
+
+.disclener {
+
+    width: 100%;
+
+    float: left;
+
+}
+
+
+
+.disclener .disclener-left {
+
+    width: 60%;
+
+    float: left;
+
+}
+
+
+
+.disclener .disclener-left h6 {
+
+    margin-bottom: 10px;
+
+}
+
+
+
+.disclener .disclener-right {
+
+    width: 40%;
+
+    float: right;
+
+    text-align: right;
+
+}
+
+
+
+.disclener .tx-cen {
+
+    display: block;
+
+    text-align: center;
+
+    width: 100%;
+
+    float: left;
+
+    margin-top: 20px;
+
+}
+
+
+
+.td-he40 {
+
+    padding-bottom: 50px;
+
+    border-bottom: none !important;
+
+}
+
+
+
+.td-he50 {
+
+    border-bottom: none !important;
+
+}
+
+
+
+.td-he50 p:last-child {
+
+    padding-bottom: 15px;
+
+}
+
+
+
+.td-wid {
+
+    width: 40%;
+
+}
+
