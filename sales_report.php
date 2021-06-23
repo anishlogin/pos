@@ -15,6 +15,8 @@
         <meta name="author" content="" />
         <title>Dashboard - SB Admin</title>
         <link href="assets/css/styles.css" rel="stylesheet" />
+        <link href="assets/css/datepicker.css" rel="stylesheet" />
+
         <link href="assets/css/bootstrap4.min.css" rel="stylesheet" crossorigin="anonymous" />
         <script src="assets/js/all.min.js" crossorigin="anonymous"></script>
     </head>
@@ -53,6 +55,14 @@
                             <li class="breadcrumb-item active">Bill LIST</li>
                         </ol>
                         <div class="row">
+                            <div class="col-md-3"></div>
+                            <div class="col-md-3">
+                                <input type="text" name="start_date" value="<?php echo date("Y-m-d")?>" id="start_date" placeholder="Start Date">
+                            </div>
+                            <div class="col-md-3">
+                                <input type="text" name="end_date" value="<?php echo date("Y-m-d")?>" id="end_date" placeholder="End Date">
+                            </div>
+                            <div class="col-md-3"></div>
                             <div class="col-md-12">
                                 <table class="table table-bordered" id="salesTable" width="100%" cellspacing="0">
                                     <thead>
@@ -100,9 +110,12 @@
         <script src="assets/js/jquery-3.2.1.min.js" crossorigin="anonymous"></script>
         <script src="assets/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
         <script src="assets/js/scripts.js"></script>
+        <script src="assets/js/datapicker.js"></script>
         <script src="assets/js/dataTables/dataTables.min.js" crossorigin="anonymous"></script>
         <script type="text/javascript">
             $(document).ready(function(){
+                $("#start_date").datetimepicker()
+                $("#end_date").datetimepicker()
                 function amountFormat(x) {
                     x = parseFloat(x).toFixed(2)
                     if (x) {
@@ -139,7 +152,7 @@
                 var dealerprice = 0
                 var billtotal = 0
                 var profit = 0
-                $('#salesTable').dataTable({
+                var salesTable = $('#salesTable').dataTable({
                     "bProcessing": true,
                     "serverSide": true,
                     "paging":false,
@@ -147,6 +160,10 @@
                     "ajax":{
                         url :"sales_list.php",
                         type: "POST",
+                        'data': function(data){
+                            data.start_date = $("#start_date").val()
+                            data.end_date = $("#end_date").val()
+                        },
                         error: function(){
                             $("#salesTable_processing").css("display","none");
                         },
@@ -176,6 +193,10 @@
                         {"data":'BillAmount'}
                     ],
                 });
+                $(document).on("change","#start_date,#end_date",function(e){
+                    console.log(salesTable)
+                    salesTable._fnDraw()
+                })
             })
         </script>
     </body>
