@@ -37,7 +37,11 @@
                 <div style = "'.$mar_left.'margin-top:7px;">
                     <div style="font-family:verdana; font-size:11px; text-align:center; word-wrap: break-word;margin-top:5px;margin-bottom:5px;float:left;">
                         <div style="margin-bottom:0px;font-size:10px">Lakshmi Market</div>
-                        <img style="width:120px;height:55px;" id="barcode_src" src="barcode.php?text='.$text.'"  />
+                        <img style="width:120px;height:28px;" id="barcode_src" src="barcode.php?text='.$text.'"  />
+                        <div style>
+                            <span style="width:40%;float:left">'.$code.'</span>
+                            <span style= "width:40%;float:right;font-size:10px"><span>&#8377</span><span>'.$mrp.'</span>
+                        </div>
                     </div>
                 </div>
             </div>';
