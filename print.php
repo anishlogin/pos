@@ -36,11 +36,13 @@
         echo '<div  style="'.$clear.'width:'.$option_width.'; font-family:verdana; height:'.$option_height.'; font-size:14px; text-align:center; word-wrap: break-word;overflow: hidden; text-overflow: ellipsis;white-space: nowrap;margin-left:0.5% !important;margin-right:0.5%;float:left">
                 <div style = "'.$mar_left.'margin-top:7px;">
                     <div style="font-family:verdana; font-size:11px; text-align:center; word-wrap: break-word;margin-top:5px;margin-bottom:5px;float:left;">
-                        <div style="margin-bottom:0px;font-size:10px">Lakshmi Market</div>
+                        <div style="font-size:9px;">
+                         <span style="width:40%;">Lakshmi Market</span>
+                        <span style= "width:40%;"><span>&#8377</span><span>'.$mrp.'</span></div>
                         <img style="width:120px;height:28px;" id="barcode_src" src="barcode.php?text='.$text.'"  />
-                        <div style>
-                            <span style="width:40%;float:left">'.$code.'</span>
-                            <span style= "width:40%;float:right;font-size:10px"><span>&#8377</span><span>'.$mrp.'</span>
+                        <div><center>
+                             <span>'.$code.'</span>
+                            </center>
                         </div>
                     </div>
                 </div>
