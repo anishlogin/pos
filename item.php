@@ -102,7 +102,7 @@
                                             <div class="help-block with-errors"></div>
                                         </div>
                                     </div>
-                                    <div class="col-md-4">
+                                    <div class="col-md-3">
                                         <div class="form-group">
                                             <label class="small mb-1" for="unit">UNIT<span class="required_field">*</span></label>
                                             <select  class="form-control unit" id="unit" name="unit" required>
@@ -114,21 +114,29 @@
                                             <div class="help-block with-errors"></div>
                                         </div>
                                     </div>
-                                    <div class="col-md-4">
+                                    <div class="col-md-3">
                                         <div class="form-group">
                                             <label class="small mb-1" for="mrp">MRP<span class="required_field">*</span></label>
                                             <input class="form-control py-4 " id="MRP"  name="mrp" value="<?php echo $product['mrp']?>" type="text" placeholder="Enter MRP" required/>
                                             <div class="help-block with-errors"></div>
                                         </div>
                                     </div>
-                                    <div class="col-md-4">
+                                    <div class="col-md-3">
                                         <div class="form-group">
                                             <label class="small mb-1" for="retail_price">Retail Price<span class="required_field">*</span></label>
                                             <input class="form-control py-4 " id="retail_price"  name="retail_price" value="<?php echo $product['retail_price']?>" type="text" placeholder="Enter Retail Price" required/>
                                             <div class="help-block with-errors"></div>
                                         </div>
                                     </div>
+                                    <div class="col-md-3">
+                                        <div class="form-group">
+                                            <label class="small mb-1" for="retail_price">Rate<span class="required_field">*</span></label>
+                                            <input class="form-control py-4 " id="rate"  name="rate" value="<?php echo $product['rate']?>" type="text" placeholder="Enter Your Price" required/>
+                                            <div class="help-block with-errors"></div>
+                                        </div>
                                     </div>
+                                    </div>
+
                                     <div class="row" id="barcode" data-item = '<?php echo $product['code']?>' style="margin-bottom: 10px;">
                                         <?php if($product['code']){ ?>
                                             <img  alt='<?php echo $product['code']?>' style="margin:auto;display: inline-block;" src='barcode.php?text=<?php echo $product['code']?>'  width="110" height="30" />

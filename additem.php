@@ -9,7 +9,7 @@ if (isset($_POST["submit"])) {
 	try {
 		
 		if($_POST["id"]){
-			$sql = "UPDATE products SET name='".$_POST["name"]."',code='".$_POST["code"]."',mrp=".$_POST["mrp"].",retail_price=".$_POST["retail_price"].",unit='".$_POST["unit"]."',qty=".$_POST["qty"]." WHERE id=".$_POST['id'];
+			$sql = "UPDATE products SET name='".$_POST["name"]."',code='".$_POST["code"]."',mrp=".$_POST["mrp"].",retail_price=".$_POST["retail_price"].",unit='".$_POST["unit"]."',qty=".$_POST["qty"].",rate=".$_POST["rate"]." WHERE id=".$_POST['id'];
 			$result = mysqli_query($conn, $sql);
 			header('Location: itemlist.php');
 			die();
@@ -22,7 +22,7 @@ if (isset($_POST["submit"])) {
 				die();
 			}
 
-			$sql = "INSERT INTO products (name,code,mrp,retail_price,unit,qty) VALUES ('".$_POST['name']."','".$_POST['code']."',".$_POST['mrp'].",".$_POST['retail_price'].",'".$_POST['unit']."',".$_POST['qty'].")";
+			$sql = "INSERT INTO products (name,code,mrp,retail_price,unit,qty,rate) VALUES ('".$_POST['name']."','".$_POST['code']."',".$_POST['mrp'].",".$_POST['retail_price'].",'".$_POST['unit']."',".$_POST['qty'].",".$_POST['rate'].")";
 			$result = mysqli_query($conn, $sql);
 			header('Location: itemlist.php');
 		}
